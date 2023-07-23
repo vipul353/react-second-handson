@@ -1,0 +1,79 @@
+.name {
+  height: 6rem;
+  width: 30rem;
+  background: goldenrod;
+  border-radius: 20px;
+  font-size: 2.0rem;
+}
+
+label {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.formHandle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  height: 6rem;
+  width: 24rem;
+  font-size: 3rem;
+  color: black;
+  font-weight: 600;
+  border-radius: 20px;
+  background-color: aqua;
+  margin-top: 10px;
+}
+
+.cards {
+  width: 85vw;
+  padding-inline: 0rem;
+  margin-top: 5rem;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+    padding: 1rem;
+    background: pink;
+    border-radius: 10px;
+    margin: 10px;
+    border: 3px solid black;
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+}
+
+
+@media screen and (max-width:425px) {
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+  }
+  
+  
+  @media screen and (max-width:915px) {
+  
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+    
+  }
